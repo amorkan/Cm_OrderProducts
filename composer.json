@@ -1,0 +1,21 @@
+{
+    "description": "Add Product SKUs or Names column to the Magento Orders Grid",
+    "extra": {
+        "map": [
+            [
+                "Cm_OrderProducts.xml",
+                "app/etc/modules/Cm_OrderProducts.xml"
+            ],
+            [
+                "code",
+                "app/code/community/Cm/OrderProducts/"
+            ]
+        ]
+    },
+    "name": "cm/orderproducts",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "type": "magento-module",
+    "version": "dev-master"
+}
